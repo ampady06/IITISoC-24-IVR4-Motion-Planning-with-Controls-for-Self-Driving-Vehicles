@@ -12,5 +12,6 @@ Mentors:
 Members:
 - [Prathamesh Kawtikwar](https://github.com/ppk1709)
 - [S Sri Vaishnavi](https://github.com/vaishnavi-1035)
+- [Vashista Boddula](https://github.com/Vashista2412)
 <br>
-- <p><a href="https://github.com/Vashista2412">Vashista Boddula</a></p> 
+-
