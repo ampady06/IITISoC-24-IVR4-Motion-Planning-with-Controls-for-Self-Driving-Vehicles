@@ -13,5 +13,5 @@ Members:
 - [Prathamesh Kawtikwar](https://github.com/ppk1709)
 - [S Sri Vaishnavi](https://github.com/vaishnavi-1035)
 <br>
-- [Vashista Boddula](https://github.com/Vashista2412)
-
+- [Vashista Boddula]
+[def]: https://github.com/Vashista2412
