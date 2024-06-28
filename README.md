@@ -43,7 +43,7 @@ First we converted our map to a binary occupancy grid given below to make path p
 ![Image](Images/occupancy_grid_SLAM.png)
 
 Here's a one with waypoint navigation:
-![Image](Images/Astar_waypoint.png)
+![image](Images/Screenshot from 2024-06-28 20-01-57.png)
 
 In the next phase, we'll be starting with implemention of Control algorithms like MPC(Model Predictive Control). 
 
