@@ -20,7 +20,7 @@ Members:
 
 ## Implementation:
 As an input we were given a world file for the project which looks like this in gazebo
-![Screenshot](Images/Screenshot from 2024-06-28 19-20-24.png)
+![Screenshot](Images/igvc_world.png)
 
 Our first task was to get the map of the above world through SLAM.
 For SLAM, we conducted many tests with different robots like:
@@ -43,7 +43,7 @@ First we converted our map to a binary occupancy grid given below to make path p
 ![Image](Images/occupancy_grid_SLAM.png)
 
 Here's a one with waypoint navigation:
-![image](Images/Screenshot from 2024-06-28 20-01-57.png)
+![Image](Images/Astar_waypoint.png)
 
 In the next phase, we'll be starting with implemention of Control algorithms like MPC(Model Predictive Control). 
 
