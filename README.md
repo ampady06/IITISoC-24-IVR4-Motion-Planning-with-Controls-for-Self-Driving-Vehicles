@@ -21,7 +21,8 @@ Members:
 ## Implementation:
 As an input we were given a world file for the project which looks like this in gazebo
 ![Screenshot](Images/igvc_world.png)
-
+For the above project, we modelled our own 3-wheeled vehicle
+![Image](Images/soc_bot3.png)
 Our first task was to get the map of the above world through SLAM.
 For SLAM, we conducted many tests with different robots like:
 1. Turtlebot3
