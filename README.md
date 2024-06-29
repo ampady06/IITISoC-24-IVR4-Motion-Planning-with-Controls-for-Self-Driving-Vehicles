@@ -43,7 +43,7 @@ After getting a fairly accurate map, we moved onto trying path planning algorith
 First we converted our map to a binary occupancy grid given below to make path planning feasible
 ![Image](Images/occupancy_grid_SLAM.png)
 
-Here's a one with waypoint navigation:
+Here's a one with Astar:
 ![Image](Images/Astar_waypoint.png)
 
 In the next phase, we'll be starting with implemention of Control algorithms like MPC(Model Predictive Control). 
