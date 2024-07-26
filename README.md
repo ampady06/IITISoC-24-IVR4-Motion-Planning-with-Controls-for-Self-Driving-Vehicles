@@ -90,6 +90,7 @@ We have conducted research and finalized two search-based algorithms to determin
 <img src="Path_planning_trials\Astar Vs Djikstra.jpg" alt="Astar Vs Djikstra">
 
 Initially, we had a map generated from a LiDAR scan during SLAM. 
+
 <img src="Path_planning_trials\Binary_Occupancy.png" alt="Binary Occupancy grid" width="200" height="200">
 
  To prepare the map for pathfinding, we converted all grey pixels (non-black except 254/255) to zero pixels, resulting in a modified map. As A* modifies some elements during its process, we further converted the 254 pixels to 0 and 0 pixels to 254, producing the appropriate map for A*.
