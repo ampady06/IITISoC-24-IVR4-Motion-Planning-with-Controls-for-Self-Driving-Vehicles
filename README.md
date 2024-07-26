@@ -42,9 +42,9 @@ The modelled vehicle has:
 2. Camera link
 3. IMU link
 
-<img src="Images\soc_bot3.png" alt="Isometric View" width="150" height="150">
-<img src="Images\soc_bot2.png" alt="Side View" width="150" height="150">
-<img src="Images\soc_bot1.png" alt="Front View" width="150" height="150">
+<img src="Images\soc_bot3.png" alt="Isometric View" width="100" height="100">
+<img src="Images\soc_bot2.png" alt="Side View" width="100" height="100">
+<img src="Images\soc_bot1.png" alt="Front View" width="100" height="100">
 
 Our first task was to get the map of the above world through SLAM.
 For SLAM, we conducted many tests with different robots like:
