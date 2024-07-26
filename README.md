@@ -53,9 +53,12 @@ The modelled vehicle has:
 2. Camera link
 3. IMU link
 
-<img src="Images\soc_bot3.png" alt="Isometric View" width="150" height="150">
-<img src="Images\soc_bot2.png" alt="Side View" width="150" height="150">
-<img src="Images\soc_bot1.png" alt="Front View" width="150" height="150">
+<div style="display: flex; justify-content: space-around;">
+  <img src="Images/soc_bot3.png" alt="Isometric View" width="150" height="150">
+  <img src="Images/soc_bot2.png" alt="Side View" width="150" height="150">
+  <img src="Images/soc_bot1.png" alt="Front View" width="150" height="150">
+</div>
+
 
 Our first task was to get the map of the above world through SLAM.
 For SLAM, we conducted many tests with different robots like:
@@ -103,7 +106,10 @@ We have conducted research and finalized two search-based algorithms to determin
 
 Initially, we had a map generated from a LiDAR scan during SLAM. 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 802f22d42055837ff4b9aeaab2c343636bbf2e0b
 <img src="Path_planning_trials\Binary_Occupancy.png" alt="Binary Occupancy grid" width="200" height="200">
 
  To prepare the map for pathfinding, we converted all grey pixels (non-black except 254/255) to zero pixels, resulting in a modified map. As A* modifies some elements during its process, we further converted the 254 pixels to 0 and 0 pixels to 254, producing the appropriate map for A*.
