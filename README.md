@@ -106,10 +106,6 @@ We have conducted research and finalized two search-based algorithms to determin
 
 Initially, we had a map generated from a LiDAR scan during SLAM. 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 802f22d42055837ff4b9aeaab2c343636bbf2e0b
 <img src="Path_planning_trials\Binary_Occupancy.png" alt="Binary Occupancy grid" width="200" height="200">
 
  To prepare the map for pathfinding, we converted all grey pixels (non-black except 254/255) to zero pixels, resulting in a modified map. As A* modifies some elements during its process, we further converted the 254 pixels to 0 and 0 pixels to 254, producing the appropriate map for A*.
@@ -159,11 +155,23 @@ Q and 𝑅
 In this step, we loop through the path points, solve the MPC optimization problem at each step, apply the control input to the system, and update the system state accordingly.
 
 This is the working model of the MPC Algorithm on Turtlebot3_Burger:
-
+[MPC_in_action](https://github.com/ppk1709/IITISoC-24-IVR4-Motion-Planning-with-Controls-for-Self-Driving-Vehicles/blob/main/MPC_results/MPC_in_action.mp4)
 
 ## References
 
+- https://github.com/richardos/occupancy-grid-a-star/blob/master/a_star.py
 
+- https://github.com/learlinian/UW-Madison-CS540-Introduction-to-AI/blob/master/3.%20A%20Start%20Search.py
+
+- Xiang, Dan & Lin, Hanxi & Ouyang, Jian & Huang, Dan. (2022). Combined improved A* and greedy algorithm for path planning of multi-objective mobile robot. Scientific Reports. 12. 10.1038/s41598-022-17684-0.
+
+- Fareh, Raouf & Baziyad, Mohammed & Rahman, Mohammad & Rabie, Tamer & Bettayeb, Maamar. (2019). Investigating Reduced Path Planning Strategy for Differential Wheeled Mobile Robot. Robotica. 38. 1-21. 10.1017/S0263574719000572.
+
+- M. Abed, B., & M. Jasim, W. (2023). Hybrid approach for multi-objective optimization path planning with moving target. Indonesian Journal of Electrical Engineering and Computer Science, 29(1), 348-357. doi:http://doi.org/10.11591/ijeecs.v29.i1.pp348-357
+
+- https://youtube.com/playlist?list=PLHduviKk47y-E7jyUyQQQlDPxOW5kZo2i&si=uWzSmrtd8PP7DFL5
+
+- [Implement-simultaneous-localization-and-mapping-with-lidar-scans](https://in.mathworks.com/help/nav/ug/implement-simultaneous-localization-and-mapping-with-lidar-scans.html?searchHighlight=Implement%20Simultaneous%20Localization%20And%20Mapping%20%28SLAM%29%20with%20Lidar%20Scans&s_tid=srchtitle_support_results_1_Implement%20Simultaneous%20Localization%20And%20Mapping%20%2528SLAM%2529%20with%20Lidar%20Scans)
 
 
 
