@@ -22,7 +22,7 @@ Members:
 * ![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 *  ![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-68217A?style=flat&logo=ros&logoColor=white)
-)
+
 
 * ![ROS Noetic](https://img.shields.io/badge/ROS-Noetic-22314E?style=flat&logo=ros&logoColor=white)
 
@@ -50,8 +50,7 @@ As an input we were given a world file for the project which looks like this in 
 For the above project, we modelled our own 3-wheeled vehicle,
 The modelled vehicle has:
 1. LiDAR link
-2. Camera link
-3. IMU link
+2. IMU link
 
 <div style="display: flex; justify-content: space-around;">
   <img src="Images/soc_bot3.png" alt="Isometric View" width="150" height="150">
