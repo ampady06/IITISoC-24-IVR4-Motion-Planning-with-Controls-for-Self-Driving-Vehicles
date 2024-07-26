@@ -43,9 +43,9 @@ The modelled vehicle has:
 3. IMU link
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="Images/soc_bot3.png" alt="Isometric View" width="100" height="100">
-  <img src="Images/soc_bot2.png" alt="Side View" width="100" height="100">
-  <img src="Images/soc_bot1.png" alt="Front View" width="100" height="100">
+  <img src="Images/soc_bot3.png" alt="Isometric View" width="150" height="150">
+  <img src="Images/soc_bot2.png" alt="Side View" width="150" height="150">
+  <img src="Images/soc_bot1.png" alt="Front View" width="150" height="150">
 </div>
 
 
